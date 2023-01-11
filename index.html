@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Form 01</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="hero">
+		<form id="form">
+			<fieldset>
+				<legend>Login</legend>
+				<!-- Name -->
+				<div class="field">
+					<label for="name_id">Name</label>
+					<input id="name_id" type="text" placeholder="Your Name">
+				</div>
+				<!-- Last Name -->
+				<div class="field">
+					<label for="lastname_id">Last Name</label>
+					<input id="lastname_id" type="text" placeholder="Your Last Name">
+				</div>
+				<!-- Age -->
+				<div class="field">
+					<label for="age_id">Age</label>
+					<input id="age_id" type="number" min="0" max="100" placeholder="Your Age">
+				</div>
+				<!-- Phone Number -->
+				<div class="field">
+					<label for="number_id">Phone Number</label>
+					<input id="number_id" type="number" placeholder="Your Phone Number">
+				</div>
+				<!-- Password -->
+				<div class="field">
+					<label for="pass_id">Password</label>
+					<input id="pass_id" type="password" placeholder="Your Password">
+				</div>
+				<!-- Gender -->
+				<div class="radio">
+					<div>Gender</div>
+					<div>	
+						<input type="radio" id="Man" name="Gender" value="Man" checked>
+						<label for="Man">Man</label>
+						<input type="radio" id="Woman" name="Gender" value="Woman">
+						<label for="Woman">Woman</label>
+						<input type="radio" id="Other" name="Gender" value="Other">
+						<label for="Other">Other</label>
+					</div>
+				</div>
+				<button>Login</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>

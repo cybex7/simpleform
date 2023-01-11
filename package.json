@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@aasaam/noto-font": "^0.0.10"
+  },
+  "name": "simpleform",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "node-sass -w src/scss/main.scss main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybex7/simpleform.git"
+  },
+  "author": "Arash Abdous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybex7/simpleform/issues"
+  },
+  "homepage": "https://github.com/cybex7/simpleform#readme"
+}
