@@ -16,27 +16,32 @@
 				<!-- Name -->
 				<div class="field">
 					<label for="name_id">Name</label>
-					<input id="name_id" type="text" placeholder="Your Name">
+					<input pattern="[a-z]+[^A-Z]" id="name_id" type="text" placeholder="Your Name" required autocomplete="name">
 				</div>
 				<!-- Last Name -->
 				<div class="field">
 					<label for="lastname_id">Last Name</label>
-					<input id="lastname_id" type="text" placeholder="Your Last Name">
+					<input id="lastname_id" type="text" placeholder="Your Last Name" autocomplete="family-name">
+				</div>
+				<!-- Organization -->
+				<div class="field">
+					<label for="Organization_id">Organization</label>
+					<input id="Organization_id" type="text" placeholder="Your Organization" autocomplete="off">
 				</div>
 				<!-- Age -->
 				<div class="field">
 					<label for="age_id">Age</label>
-					<input pattern="[0-9]" id="age_id" type="number" min="0" max="100" placeholder="Your Age">
+					<input id="age_id" type="number" min="0" max="100" placeholder="Your Age">
 				</div>
 				<!-- Phone Number -->
 				<div class="field">
 					<label for="number_id">Phone Number</label>
-					<input pattern="[0-9]" id="number_id" type="number" placeholder="Your Phone Number">
+					<input id="number_id" type="number" placeholder="Your Phone Number">
 				</div>
 				<!-- Password -->
 				<div class="field">
 					<label for="pass_id">Password</label>
-					<input pattern=".{8,}" id="pass_id" type="password" placeholder="Your Password (At least 8 number)">
+					<input pattern=".{8,12}" id="pass_id" type="password" placeholder="Your Password (At least 8 number)" required>
 				</div>
 				<!-- Gender -->
 				<div class="radio">

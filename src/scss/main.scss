@@ -96,6 +96,10 @@ body {
     color: teal;
     @extend .shadow;
 
+    input:invalid {
+        outline: 2px solid red;
+    }
+
     fieldset {
         display: flex;
         gap: 16px;

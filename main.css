@@ -79,6 +79,8 @@ body {
   border-radius: 10px;
   padding: 16px;
   color: teal; }
+  #form input:invalid {
+    outline: 2px solid red; }
   #form fieldset {
     display: flex;
     gap: 16px;
